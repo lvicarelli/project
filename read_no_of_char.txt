@@ -1,0 +1,7 @@
+x=str(input("insert string: "))
+y=str(input("which character would you like to find?: "))
+c=0
+for i in x:
+       if y in i:
+            c=c+1
+print(c) 
